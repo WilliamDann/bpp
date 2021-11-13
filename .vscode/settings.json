@@ -1,0 +1,12 @@
+{
+    "files.watcherExclude": {
+        "**/target": true
+    },
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex"
+    ]
+}
