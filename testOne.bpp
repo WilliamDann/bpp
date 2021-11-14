@@ -1,4 +1,18 @@
-push 97
-push 98
+push 11
+push 11
 
+sub
 eq
+push 83
+add
+print
+
+push 12
+push 11
+
+sub
+eq
+push 70
+add
+print
+pop

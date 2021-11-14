@@ -31,7 +31,7 @@ def exec(code: str, memory: list=None, debug=False):
     while i < len(tokens) and i >= 0:
         if tokens[i] == '[' and memory[pointer] == 0:
             closesUntilMatch = 1
-            while closesUntilMatch == 0:
+            while closesUntilMatch != 0:
                 i += 1
 
                 if   tokens[i] == ']': closesUntilMatch -= 1

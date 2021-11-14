@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "bf.py",
             "console": "integratedTerminal",
-            "args": ["test.b", "--debug"]
+            "args": ["if.b", "--debug"]
         }
     ]
 }
